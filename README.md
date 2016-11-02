@@ -1,16 +1,22 @@
+theviralab/simple-segment
+=========================
+This is a fork of [Nick Foubert's simple-segment library][simple-segment]. It has been modified so that it can be installed via `pip`.
+
+What follows is the original README file.
+
 Simple Sequence Segmenting
 ==========================
 
 This repository contains Python code I wrote for segmenting 1-D time series. In other words,
-it can be used for transforming a time series into a piecewise linear represenation. 
-The algorithms are Python implementations of the "classical" algorithms, as described in 
+it can be used for transforming a time series into a piecewise linear represenation.
+The algorithms are Python implementations of the "classical" algorithms, as described in
 [An Online Algorithm for Segmenting Time Series][keogh], including:
 
 - the sliding window algorithm;
 - the top-down algorithm; and
 - the bottom-up algorithm.
 
-The code is *not* optimized for performance in any way, but I've found it useful for 
+The code is *not* optimized for performance in any way, but I've found it useful for
 experimenting and data exploration.
 
 Requirements
@@ -31,3 +37,4 @@ The example uses ECG data I found on an [ECG data site][ecg].
 [numpy]: http://numpy.scipy.org "NumPy"
 [mpl]: http://matplotlib.sourceforge.net "Matplotlib"
 [ecg]: http://myweb.msoe.edu/~martynsc/signals/ecg/ecg.html "ECG Data"
+[simple-segment]: https://github.com/NickFoubert/simple-segment "NickFoubert/simple-sefment"
