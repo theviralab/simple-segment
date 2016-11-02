@@ -2,8 +2,7 @@
 
 from matplotlib.pylab import gca, figure, plot, subplot, title, xlabel, ylabel, xlim, show
 from matplotlib.lines import Line2D
-import segment
-import fit
+from simplesegment import segment, fit
 
 
 def draw_plot(data, plot_title):
